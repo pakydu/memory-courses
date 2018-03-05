@@ -24,7 +24,7 @@ int main(int argc, char *argv[])
 		buffer[i] = 0;
 	free(buffer);
 	/* <do your RT-thing> */
-
+printf("commint test 1.\n");
 	while(1);
 	return 0;
 }
