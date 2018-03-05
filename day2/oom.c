@@ -5,7 +5,7 @@
 int main(int argc, char **argv)
 {
 	int max = -1;
-	int mb = 0;
+	int mb = 0000;
 	char *buffer;
 	int i;
 #define SIZE 2000
