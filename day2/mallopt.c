@@ -7,7 +7,7 @@ int main(int argc, char *argv[])
 {
 	unsigned char *buffer;
 	int i;
-
+printf("commint test2\n");
 	if (!mlockall(MCL_CURRENT | MCL_FUTURE))
 		mallopt(M_TRIM_THRESHOLD, -1UL);
 	mallopt(M_MMAP_MAX, 0);
